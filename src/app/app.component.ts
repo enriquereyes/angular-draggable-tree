@@ -23,24 +23,26 @@ export class TodoItemFlatNode {
  * The Json object for to-do list data.
  */
 const TREE_DATA = {
-  'CAJA 01': {
-    'Documento A': {
-      'Portada': null,
-      'Secciones': ['A', 'B']
+  'PROYECTO': {
+    'CAJA 01': {
+      'Documento A': {
+        'Portada': null,
+        'Secciones': ['A', 'B']
+      },
+      'Documento B': {
+        'Portada': null,
+        'Secciones': ['']
+      }
     },
-    'Documento B': {
-      'Portada': null,
-      'Secciones': ['']
-    }
-  },
-  'CAJA 02': {
-    'Documento A': {
-      'Portada': null,
-      'Secciones': ['A', 'B']
-    },
-    'Documento B': {
-      'Portada': null,
-      'Secciones': ['']
+    'CAJA 02': {
+      'Documento A': {
+        'Portada': null,
+        'Secciones': ['A', 'B']
+      },
+      'Documento B': {
+        'Portada': null,
+        'Secciones': ['']
+      }
     }
   }
 };
